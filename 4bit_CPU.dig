@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>ProgramCounter.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Counter</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-500" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RegisterFile.dig</elementName>
+      <elementAttributes/>
+      <pos x="140" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>4bit_ALU.dig</elementName>
+      <elementAttributes/>
+      <pos x="20" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ramBlock.dig</elementName>
+      <elementAttributes/>
+      <pos x="-220" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>IR.dig</elementName>
+      <elementAttributes/>
+      <pos x="-100" y="480"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-360" y="400"/>
+      <p2 x="-220" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="480"/>
+      <p2 x="-100" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="500"/>
+      <p2 x="-20" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="440"/>
+      <p2 x="-140" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="440"/>
+      <p2 x="20" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="-440" y="460"/>
+      <p2 x="-360" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="460"/>
+      <p2 x="-220" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="440"/>
+      <p2 x="-20" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="400"/>
+      <p2 x="-360" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="440"/>
+      <p2 x="-140" y="480"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
